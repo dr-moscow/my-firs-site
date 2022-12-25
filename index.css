@@ -5,6 +5,28 @@ body {
     background-repeat: repeat;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.o-gorode {
+    border: 0.1em solid black;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aliceblue;
+    border-radius: 1em;
+}
+
+.pic { /*обтекание картинки*/
+    float:left;
+    margin-right: 7px;
+    justify-content: left;
+}
+
 .forma1 {  /*авторизация на сайте*/
     border: 2px solid rgb(255, 1, 1);
     border-radius: 1em;
@@ -12,17 +34,17 @@ body {
     margin-bottom: 20px;
     padding: 5px;
     max-width: 39.4em;
-    margin:0 auto;
+    /* margin:0 auto; */
     margin-right: 15px;
     margin-bottom: 1.7em;
 }
 
 .H3form1 { /*заголовок авторизации на сайте*/
-    text-align: right;
+    text-align: left;
     padding-top: 0;
     padding-bottom: 0em;
-    margin:0 auto;
-    margin-right: 15.313em;
+    /* margin:0 auto; */
+    margin-bottom: 0px;
 }
 
 h1 {
@@ -39,6 +61,7 @@ h2 {
 p {
     font-size: 22px;
     text-align: justify;
+    text-indent: 20px;
 }
 
 ul {
@@ -98,6 +121,7 @@ blockquote {
 
 .tab-centr { /*заголовок таблицы климата*/
     text-align: center;
+    margin-top: 55px;
 }
 
 .forma { /*форма подписки*/
