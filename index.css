@@ -1,8 +1,8 @@
 body {
-    width: 80%;
-    margin:0 auto; 
-    background: url(./images/Снимок.JPG);
-    background-repeat: repeat;
+	width: 80%;
+	margin: 0 auto;
+	background: url(./images/Снимок.JPG);
+	background-repeat: repeat;
 }
 
 .header {
@@ -91,148 +91,160 @@ body {
 	left: 37%;
 }
 
-
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 20px;
 }
 
 .o-gorode {
-    border: 0.1em solid black;
-    width: 150px;
-    height: 30px;
-    text-align: center;
-    font-size: 25px;
-    background-color: aliceblue;
-    border-radius: 1em;
+	border: 0.1em solid black;
+	width: 150px;
+	height: 30px;
+	text-align: center;
+	font-size: 25px;
+	background-color: aliceblue;
+	border-radius: 1em;
 	text-decoration: none;
 }
 
-.pic { /*обтекание картинки*/
-    float:left;
-    margin-right: 7px;
-    justify-content: left;
+.pic {
+	/*обтекание картинки*/
+	float: left;
+	margin-right: 7px;
+	justify-content: left;
 }
 
-.forma1 {  /*авторизация на сайте*/
-    border: 2px solid rgb(255, 1, 1);
-    border-radius: 1em;
-    margin-top: 0; 
-    margin-bottom: 20px;
-    padding: 5px;
-    max-width: 39.4em;
-    /* margin:0 auto; */
-    margin-right: 15px;
-    margin-bottom: 1.7em;
+.forma1 {
+	/*авторизация на сайте*/
+	border: 2px solid rgb(255, 1, 1);
+	border-radius: 1em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	padding: 5px;
+	max-width: 39.4em;
+	/* margin:0 auto; */
+	margin-right: 15px;
+	margin-bottom: 1.7em;
 }
 
-.H3form1 { /*заголовок авторизации на сайте*/
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: 0em;
-    /* margin:0 auto; */
-    margin-bottom: 0px;
+.H3form1 {
+	/*заголовок авторизации на сайте*/
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0em;
+	/* margin:0 auto; */
+	margin-bottom: 0px;
 }
 
 h1 {
-    font-size: 35px;
-    color: #6604bb;
-    text-align: center;
+	font-size: 35px;
+	color: #6604bb;
+	text-align: center;
 }
 
 h2 {
-    text-align: left;
-    margin-bottom: -15px;
+	text-align: left;
+	margin-bottom: -15px;
 }
 
 p {
-    font-size: 22px;
-    text-align: justify;
-    text-indent: 20px;
+	font-size: 22px;
+	text-align: justify;
+	text-indent: 20px;
 }
 
 ul {
-    font-size: 19px; /*Размер шрифта в списке*/
+	font-size: 19px;
+	/*Размер шрифта в списке*/
 }
 
 .colortext {
-  color: red; /* Красный цвет выделения списка */
+	color: red;
+	/* Красный цвет выделения списка */
 }
 
 ol {
-    font-size: 19px;
-    margin-top: -15px;
+	font-size: 19px;
+	margin-top: -15px;
 }
 
-.colortext-ol { /*Синий цвет выделения перечня*/
-    color: blue;
+.colortext-ol {
+	/*Синий цвет выделения перечня*/
+	color: blue;
 }
 
-.table { /*селектор рамки внешней*/
-    border: 0.125em solid rgb(9, 27, 229);
-    border-collapse: collapse;
-    margin: 0px;
-    margin-top: -15px;
-    margin-left: auto;
-    margin-right: auto;
+.table {
+	/*селектор рамки внешней*/
+	border: 0.125em solid rgb(9, 27, 229);
+	border-collapse: collapse;
+	margin: 0px;
+	margin-top: -15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-td { /*селектор рамки внутренней*/
-    border: 1px solid rgb(10, 175, 235);
-    border-collapse: collapse;
-    text-align: center;
-    padding: 0.313em;
-} 
+td {
+	/*селектор рамки внутренней*/
+	border: 1px solid rgb(10, 175, 235);
+	border-collapse: collapse;
+	text-align: center;
+	padding: 0.313em;
+}
 
-th { /*селектор рамки внутренней*/
-    border: 1px solid rgb(10, 175, 235);
-    border-collapse: collapse;
-    background-color: aquamarine;
-} 
+th {
+	/*селектор рамки внутренней*/
+	border: 1px solid rgb(10, 175, 235);
+	border-collapse: collapse;
+	background-color: aquamarine;
+}
 
-.th { /*класс выравнивая текста внутри рамки как вариант, демонстрация возможностей*/
-    text-align: left;
-    padding: 0.313em;
+.th {
+	/*класс выравнивая текста внутри рамки как вариант, демонстрация возможностей*/
+	text-align: left;
+	padding: 0.313em;
 }
 
 q {
-    font-family: Times, serif;
-    font-style: italic;
-    color: blue;
+	font-family: Times, serif;
+	font-style: italic;
+	color: blue;
 }
 
 blockquote {
-    font-style: italic;
-    color: brown;
+	font-style: italic;
+	color: brown;
 }
 
-.tab-centr { /*заголовок таблицы климата*/
-    text-align: center;
-    margin-top: 55px;
+.tab-centr {
+	/*заголовок таблицы климата*/
+	text-align: center;
+	margin-top: 55px;
 }
 
-.forma { /*форма подписки*/
-    border: 2px solid rgb(255, 1, 1);
-    border-radius: 1em;
-    /* margin-top: 0; 
+.forma {
+	/*форма подписки*/
+	border: 2px solid rgb(255, 1, 1);
+	border-radius: 1em;
+	/* margin-top: 0; 
     margin-bottom: 20px; */
-    padding: 5px;
-    max-width: 23.125em;
+	padding: 5px;
+	max-width: 23.125em;
 }
 
-.H3form { /*заголовок формы подписки*/
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: 0;
-    max-width: 23.125em;
-    margin:0 auto;
-    margin-left: 2.188em;
+.H3form {
+	/*заголовок формы подписки*/
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 0;
+	max-width: 23.125em;
+	margin: 0 auto;
+	margin-left: 2.188em;
 }
 
 .button-submit {
-    border-radius: 0em 1em 1em 0em;
+	border-radius: 0em 1em 1em 0em;
 }
 
 /* css footer */
