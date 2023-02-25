@@ -5,8 +5,96 @@ body {
     background-repeat: repeat;
 }
 
+.header {
+	/*шапка сайта*/
+	display: flex;
+	box-sizing: border-box;
+	max-width: 1300px;
+	width: 100%;
+	min-height: 80px;
+	margin: 0 auto;
+	padding-right: 16px;
+	background: #213B7E;
+	min-height: 80px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.img-logo {
+	/*Логотип сайта*/
+	display: flex;
+	padding: 16px 0px 17px 16px;
+}
+
+.navigate {
+	/*навигация по шапке*/
+	display: flex;
+	flex-wrap: wrap;
+	align-self: stretch;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu-link {
+	/*само меню навигации шапки*/
+	display: flex;
+	align-self: stretch;
+	padding: 0px;
+	margin: 0px;
+	align-items: center;
+	padding: 0 18px;
+	background-color: #213B7E;
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.menu-link:hover {
+	background-color: #FFFFFF;
+	color: #213B7E;
+	text-decoration: none;
+}
+
+.login {
+	/*кнопка Логин*/
+	display: flex;
+	justify-content: center;
+	width: 153px;
+	height: 50px;
+	align-items: center;
+	background-color: #EA5D21;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	font-family: 'Roboto', sans-serif;
+}
+
+/*Popup login*/
+.login-popup {
+	display: none;
+	position: absolute;
+	box-sizing: border-box;
+	max-width: 500px;
+	min-height: 418px;
+	width: 100%;
+	padding: 10px 38px 0px 38px;
+	background: #FFFFFF;
+	background-color: #FFFFFF;
+	border: 1px solid #213B7E;
+	z-index: 2;
+	transform: translateX(55%);
+	transform: translateY(-83%);
+	bottom: 0;
+	left: 37%;
+}
+
+
 .menu {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
 }
@@ -144,4 +232,31 @@ blockquote {
 
 .button-submit {
     border-radius: 0em 1em 1em 0em;
+}
+
+/* css footer */
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	max-width: 1300px;
+	width: 100%;
+	min-height: 60px;
+	background: #213B7E;
+	margin: 0 auto;
+	padding: 0 16px;
+	margin-top: 156px;
+}
+
+.foot-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.silka {
+	color: rgba(255, 255, 255, 0.5);
 }
