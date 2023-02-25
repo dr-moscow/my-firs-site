@@ -107,6 +107,7 @@ body {
     font-size: 25px;
     background-color: aliceblue;
     border-radius: 1em;
+	text-decoration: none;
 }
 
 .pic { /*обтекание картинки*/
