@@ -276,7 +276,7 @@ blockquote {
 
 /* css animation */
 #pot {
-	bottom: 15%;
+	bottom: 35%;
 	position: absolute;
 	animation: linear infinite;
 	animation-name: run;
